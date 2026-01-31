@@ -576,6 +576,20 @@
 
 
 
+&nbsp;		unsigned int：負の数にならない
+
+&nbsp;		intは約-21億～約21億、unsigned int：0~約42億
+
+&nbsp;		time(NULL)：この時間はプラスの数字として扱うと念押し
+
+&nbsp;		カッコで型を指定することを「キャスト」
+
+　 		キャスト：time(NULL)で返ってきた値を無理やりunsigned intの型という箱に入れ替える
+
+
+
+
+
 
 
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
